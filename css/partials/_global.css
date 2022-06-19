@@ -1,0 +1,21 @@
+
+/* global variables */
+:root {
+    --roboto: 'Roboto',cursive;
+  }
+
+/* global styling */
+
+*{
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}

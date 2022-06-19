@@ -10,6 +10,41 @@
 
 
 /* Start navigation */
+.navbar{
+    display: flex;
+    padding-inline: 3%;
+}
+
+.navbar .toggle-switch{
+    display: none;
+}
+
+.empty{
+    margin: auto;
+}
+
+.navbar-list{
+    padding-block: 15px;
+}
+
+.nav-item{
+    display: inline;
+}
+
+.nav-link{
+    font-family:  var(--roboto);
+    font-size: 1.3rem;
+    padding: 15px;
+    color: #0ccf0c;
+    transition: 0.8s;
+}
+
+.nav-link:hover{
+    color: #ffffff;
+    background-color: rgb(56, 56, 56);
+    border: #ffffff;
+}
+
 
 /* End Navigation */
 
